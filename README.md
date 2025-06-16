@@ -14,6 +14,7 @@ Features:
     Track habit streaks
     Analytics module with data breakdown
     View a user summary
+    Edit existing habits
 
 Installation:
     Clone the following repository:
