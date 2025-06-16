@@ -5,7 +5,7 @@ Habit Tracker application built in Python.
 
 USer can create it's own habit, or select from a pre defined set of habits.
 
-App can track daily - weekly - monthly habits, calculate completion, and show streaks. 
+App can track daily - weekly - monthly habits, calculate completion, show streaks, edit existing habtis
 
 Features:
     Login authentication
