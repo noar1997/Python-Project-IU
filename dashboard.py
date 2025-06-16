@@ -78,6 +78,9 @@ def start_dashboard(username):
             pause()
 
         elif decision == 6:
+            menu.edit_habit(username)
+
+        elif decision == 7:
             print("Logging out!")
             exit()
 

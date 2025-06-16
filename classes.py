@@ -108,7 +108,8 @@ class Habits:
         table.add_row("4", "Analytics")
         table.add_row("5", "User")
 
-        table.add_row("6", "Log out")
+        table.add_row("6", "Edit a habit")
+        table.add_row("7", "Log out")
         console.print(table)
         try:
             decision = int(input("Enter an option : "))
@@ -266,7 +267,38 @@ class Habits:
         else:
             print("Habit can not be completed due to it's frequency.")
             print(f"It was completed {days_passed} days ago, which exceeded it's frequency.")
+    def edit_habit(self, username):
+        data = load_credentials()
+        user_data = data.get(username, {})
+        habits = user_data.get("habits", [])
 
+        if not habits:
+            print("No habits to edit.")
+            return
+
+        print("Which habit would you like to edit?")
+        for i, habit in enumerate(habits, 1):
+            print(f"{i}. {habit['habit']} ({habit['frequency']})")
+        try:
+            choice = int(input("Enter the habit number: ")) -1
+            if choice < 0 or choice >= len(habits):
+                print("Invalid choice: ")
+                return
+        
+        except ValueError:
+            print("Invalid input.")
+            return
+        
+        habit_to_edit = habits[choice]
+        new_name = input(f"Enter a new name for your habit, or press enter to keep the same:  ")
+        new_frequency = input(f"Enter new frequency (daily, weekly, monthly): ")
+        if new_name:
+            habit_to_edit['habit'] = new_name
+        if new_frequency.lower() in ["daily", "weekly", "monthly"]:
+            habit_to_edit['frequency'] = new_frequency.lower()
+        
+        save_credentials(data)
+        print("Habit updated. ")
 
 
 

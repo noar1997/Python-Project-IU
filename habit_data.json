@@ -3,8 +3,8 @@
         "password": "pass1",
         "habits": [
             {
-                "habit": "Morning Yoga",
-                "frequency": "daily",
+                "habit": "Reading",
+                "frequency": "weekly",
                 "start_date": "2025-05-01",
                 "completion_log": [
                     "2025-06-01",
