@@ -1,0 +1,139 @@
+{
+    "user1": {
+        "password": "pass1",
+        "habits": [
+            {
+                "habit": "Morning Yoga",
+                "frequency": "daily",
+                "start_date": "2025-05-01",
+                "completion_log": [
+                    "2025-06-01",
+                    "2025-06-02",
+                    "2025-06-03",
+                    "2025-06-04",
+                    "2025-06-05",
+                    "2025-06-06",
+                    "2025-06-07",
+                    "2025-06-08",
+                    "2025-06-09",
+                    "2025-06-10",
+                    "2025-06-11",
+                    "2025-06-12",
+                    "2025-06-13",
+                    "2025-06-14",
+                    "2025-06-15",
+                    "2025-06-16",
+                    "2025-06-17",
+                    "2025-06-18",
+                    "2025-06-19",
+                    "2025-06-20",
+                    "2025-06-21",
+                    "2025-06-22",
+                    "2025-06-23",
+                    "2025-06-24",
+                    "2025-06-25",
+                    "2025-06-26",
+                    "2025-06-27",
+                    "2025-06-28"
+                ],
+                "streak": 28,
+                "progress": 28,
+                "longest_streak": 28
+            },
+            {
+                "habit": "Water Plants",
+                "frequency": "weekly",
+                "start_date": "2025-05-01",
+                "completion_log": [
+                    "2025-06-02",
+                    "2025-06-09",
+                    "2025-06-23"
+                ],
+                "streak": 0,
+                "progress": 3,
+                "longest_streak": 2
+            },
+            {
+                "habit": "Reviewing Finances",
+                "frequency": "Monthly",
+                "start_date": "2025-06-16",
+                "completion_log": [
+                    "2025-06-16"
+                ],
+                "streak": 1,
+                "progress": 1,
+                "longest_streak": 1
+            }
+        ]
+    },
+    "user2": {
+        "password": "pass2",
+        "habits": [
+            {
+                "habit": "Weekly Jogging",
+                "frequency": "weekly",
+                "start_date": "2025-05-01",
+                "completion_log": [
+                    "2025-06-03",
+                    "2025-06-10",
+                    "2025-06-17",
+                    "2025-06-24"
+                ],
+                "streak": 4,
+                "progress": 4,
+                "longest_streak": 4
+            },
+            {
+                "habit": "Monthly Budget Review",
+                "frequency": "monthly",
+                "start_date": "2025-01-01",
+                "completion_log": [
+                    "2025-04-01",
+                    "2025-06-01"
+                ],
+                "streak": 0,
+                "progress": 2,
+                "longest_streak": 1
+            }
+        ]
+    },
+    "user3": {
+        "password": "pass3",
+        "habits": [
+            {
+                "habit": "Monthly Car Maintenance",
+                "frequency": "monthly",
+                "start_date": "2025-01-01",
+                "completion_log": [
+                    "2025-05-01",
+                    "2025-06-01"
+                ],
+                "streak": 2,
+                "progress": 2,
+                "longest_streak": 2
+            },
+            {
+                "habit": "Daily Reading",
+                "frequency": "daily",
+                "start_date": "2025-05-20",
+                "completion_log": [
+                    "2025-06-01",
+                    "2025-06-02",
+                    "2025-06-03",
+                    "2025-06-04",
+                    "2025-06-05",
+                    "2025-06-07",
+                    "2025-06-08",
+                    "2025-06-09",
+                    "2025-06-10",
+                    "2025-06-11",
+                    "2025-06-13",
+                    "2025-06-14"
+                ],
+                "streak": 2,
+                "progress": 12,
+                "longest_streak": 5
+            }
+        ]
+    }
+}
