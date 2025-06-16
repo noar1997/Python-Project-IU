@@ -32,10 +32,11 @@ Unit Testig:
     To run the tests: python test_habtis.py
 
 
-Index:
-    Python-Project-IU/
-        classes.py              Core Logic containing classes
-        habit_data.json         User and habits storage
-        main.py                 Main program running the app   
-        test_habits.py          Unit testing
-        README.md               Description of the project
+
+Project Structure:
+
+- `classes.py`: Core logic and classes (`Login`, `Habits`, `Analytics`, etc.)
+- `habit_data.json`: Stores user credentials and habit tracking data
+- `main.py`: Main script to run the application
+- `test_habits.py`: Unit tests for critical features
+- `README.md`: Project documentation and usage instructions
